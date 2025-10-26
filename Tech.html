@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Startup - Homepage</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo { font-size: 1.8em; color: #4CAF50; font-weight: 700; text-decoration: none; }
+        nav a { margin-left: 25px; text-decoration: none; color: #555; font-weight: 600; }
+        .nav-cta {
+            background-color: #4CAF50;
+            color: #fff !important;
+            padding: 8px 15px;
+            border-radius: 4px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 50px;
+            background-color: #f0f8f0;
+        }
+        .hero h1 { font-size: 3em; margin-bottom: 15px; color: #1a1a1a; }
+        .hero p { font-size: 1.3em; max-width: 700px; margin: 0 auto 30px; color: #555; }
+        .main-cta {
+            display: inline-block;
+            padding: 15px 35px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+        .main-cta:hover { background-color: #388e3c; }
+        .screenshot { margin-top: 40px; }
+        .screenshot img { max-width: 800px; width: 100%; height: auto; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); } /* Mockup image */
+
+        .features {
+            padding: 60px 50px;
+            text-align: center;
+        }
+        .features h2 { font-size: 2em; margin-bottom: 50px; }
+        .feature-grid {
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+        }
+        .feature-item {
+            flex: 1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .icon { font-size: 3em; color: #4CAF50; margin-bottom: 10px; }
+        .feature-item h3 { margin-top: 0; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">SyncFlow</a>
+        <nav>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">About Us</a>
+            <a href="#" class="nav-cta">Get Started</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>The simplest way to manage your team's workflow.</h1>
+        <p>SyncFlow brings all your communication, tasks, and deadlines into one powerful, intuitive platform. Stop losing track—start achieving more.</p>
+        <a href="#" class="main-cta">Try SyncFlow Free for 14 Days</a>
+        <div class="screenshot">
+            
+        </div>
+    </div>
+
+    <div class="features">
+        <h2>Built for modern teams. Designed for simplicity.</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <div class="icon">🚀</div>
+                <h3>Automated Tasks</h3>
+                <p>Set up rules to handle repetitive tasks so your team can focus on what matters most.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">🔒</div>
+                <h3>Enterprise Security</h3>
+                <p>Your data is protected with best-in-class encryption and compliance standards.</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon">💬</div>
+                <h3>Integrated Chat</h3>
+                <p>Instant messaging tied directly to projects, reducing email clutter and response time.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

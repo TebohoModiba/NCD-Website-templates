@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Service - Homepage</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            color: #333;
+            background-color: #fff;
+        }
+        header {
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 3px solid #005691;
+        }
+        .logo { font-size: 2em; color: #003366; font-weight: bold; text-decoration: none; }
+        nav a { margin-left: 25px; text-decoration: none; color: #003366; font-weight: 600; text-transform: uppercase; }
+
+        .hero {
+            padding: 60px 50px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            align-items: center;
+        }
+        .hero-text { max-width: 55%; padding-right: 40px; }
+        .hero-text h1 { font-size: 2.8em; margin-bottom: 15px; color: #003366; }
+        .hero-text p { font-size: 1.1em; line-height: 1.6; margin-bottom: 30px; }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #005691;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .cta-button:hover { background-color: #004070; }
+        .hero-image { max-width: 45%; }
+        .hero-image img { max-width: 100%; height: auto; border-radius: 4px; } /* Professional office image */
+
+        .services {
+            padding: 60px 50px;
+            text-align: center;
+        }
+        .services h2 { font-size: 2em; margin-bottom: 40px; color: #003366; }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .service-item {
+            background-color: #fff;
+            padding: 30px;
+            border: 1px solid #eee;
+            border-radius: 6px;
+            text-align: left;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        .service-item h3 { color: #005691; margin-top: 0; }
+        .service-item a { color: #005691; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Aegis Consultants</a>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Industries</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Delivering Strategic Solutions for Your Business Growth</h1>
+            <p>Aegis Consultants is your trusted partner in corporate finance, risk management, and regulatory compliance. We provide clear, actionable advice that drives results.</p>
+            <a href="#" class="cta-button">Speak to a Consultant Today</a>
+        </div>
+        <div class="hero-image">
+             
+        </div>
+    </div>
+
+    <div class="services">
+        <h2>Our Core Expertise</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <h3>Financial Planning</h3>
+                <p>Comprehensive strategies to optimize capital and maximize returns.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+            <div class="service-item">
+                <h3>Risk & Compliance</h3>
+                <p>Navigate complex regulatory landscapes with confidence and clarity.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+            <div class="service-item">
+                <h3>Business Restructuring</h3>
+                <p>Expert guidance through mergers, acquisitions, and organizational change.</p>
+                <a href="#">Learn More &rarr;</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
